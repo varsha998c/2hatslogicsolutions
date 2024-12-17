@@ -1,0 +1,1185 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    font-family: "Poppins", sans-serif;
+}
+/* Nunito Light */
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Light.woff2") format("woff2"),
+        url("../fonts/Nunito-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Nunito Regular */
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Regular.woff2") format("woff2"),
+        url("../fonts/Nunito-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Nunito Medium */
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Medium.woff2") format("woff2"),
+        url("../fonts/Nunito-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Nunito Bold */
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Bold.woff2") format("woff2"),
+        url("../fonts/Nunito-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Nunito Italic */
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/Nunito-Italic.woff2") format("woff2"),
+        url("../fonts/Nunito-Italic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+
+img {
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+.landingPage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.landingPage .leftContainer {
+    width: 62%;
+    background-color: #fff;
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.landingPage .leftContainer .wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.landingPage .leftContainer .wrapper header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.landingPage .leftContainer .wrapper header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.landingPage .leftContainer .wrapper header nav .logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.landingPage .leftContainer .wrapper header nav .logoContainer .logo {
+    width: 70px;
+}
+
+.landingPage .leftContainer .wrapper header nav .logoContainer span {
+    margin: 10px 0 0 6px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Nunito";
+}
+
+.landingPage .leftContainer .wrapper header nav .nav-links {
+    width: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.landingPage .leftContainer .wrapper header nav .nav-links li {
+    color: #838383;
+    font-family: "Nunito";
+    font-size: 22px;
+}
+
+.landingPage .leftContainer .wrapper header nav .nav-links li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+.landingPage .leftContainer .wrapper header nav .nav-links li a:hover {
+    color: #ff7f50;
+}
+.landingPage .leftContainer .wrapper .hero {
+    width: 537px;
+    margin-top: 56px;
+}
+
+.landingPage .leftContainer .wrapper .hero .hero-text {
+}
+
+.landingPage .leftContainer .wrapper .hero .hero-text .textContainer {
+    position: relative;
+}
+
+.landingPage .leftContainer .wrapper .hero .hero-text .textContainer h1 {
+    font-size: 53px;
+    font-family: "Nunito";
+    font-weight: bold;
+    color: #000;
+}
+.landingPage
+    .leftContainer
+    .wrapper
+    .hero
+    .hero-text
+    .textContainer
+    .starBackground {
+    width: 50px;
+    position: absolute;
+    right: 11px;
+    top: 74px;
+}
+.landingPage .leftContainer .wrapper .hero .hero-text .textContainer .Star {
+    position: absolute;
+    width: 29px;
+    top: 84px;
+    right: 22px;
+    z-index: 1;
+}
+
+.landingPage .leftContainer .wrapper .hero .hero-text p.paragraph {
+    font-size: 15px;
+    color: #2d3134;
+    line-height: 1.5;
+    margin: 10px 0;
+    font-family: "Nunito";
+}
+
+.landingPage .leftContainer .wrapper .hero .hero-text p br {
+}
+
+.landingPage .leftContainer .wrapper .hero .hero-text .infoContainer {
+    margin-top: 58px;
+    display: flex;
+    width: 335px;
+    justify-content: space-between;
+}
+.landingPage
+    .leftContainer
+    .wrapper
+    .hero
+    .hero-text
+    .infoContainer
+    .students-info {
+    width: 122px;
+}
+
+.landingPage
+    .leftContainer
+    .wrapper
+    .hero
+    .hero-text
+    .infoContainer
+    .students-info
+    h2 {
+    font-family: "Nunito";
+    font-size: 36px;
+    font-weight: 500;
+    color: #000;
+}
+
+.landingPage
+    .leftContainer
+    .wrapper
+    .hero
+    .hero-text
+    .infoContainer
+    .students-info
+    p.student {
+    font-family: "Nunito";
+    color: #202020;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.landingPage
+    .leftContainer
+    .wrapper
+    .hero
+    .hero-text
+    .infoContainer
+    .students-images {
+    display: flex;
+    position: relative;
+    width: 203px;
+    align-items: center;
+}
+
+.landingPage
+    .leftContainer
+    .wrapper
+    .hero
+    .hero-text
+    .infoContainer
+    .students-images
+    div.img-1 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+}
+.landingPage
+    .leftContainer
+    .wrapper
+    .hero
+    .hero-text
+    .infoContainer
+    .students-images
+    div.img-2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 44px;
+    z-index: 3;
+}
+.landingPage
+    .leftContainer
+    .wrapper
+    .hero
+    .hero-text
+    .infoContainer
+    .students-images
+    div.img-3 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 88px;
+    z-index: 3;
+}
+.landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons {
+    margin: 78px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.landingPage
+    .leftContainer
+    .wrapper
+    .hero
+    .hero-text
+    .hero-buttons
+    .primary-btn {
+    background-color: #2f584e;
+    color: white;
+    width: 272px;
+    height: 77px;
+    font-family: "Nunito";
+    font-size: 22px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+}
+
+.landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .play_btn {
+    width: 60px;
+    height: 60px;
+}
+.landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+}
+.bottom {
+}
+
+.bottom .stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff9257;
+    padding: 30px 18px;
+    color: white;
+}
+
+.bottom .stats .stat {
+    border-left: 4px solid #f7be2c;
+    padding-left: 15px;
+}
+
+.bottom .stats .stat h2 {
+    font-size: 44px;
+    font-family: "Nunito";
+    font-weight: 500;
+}
+
+.bottom .stats .stat p {
+    font-size: 18px;
+    font-family: "Nunito";
+    font-weight: 400;
+}
+
+.landingPage .rightContainer {
+    width: 38%;
+    background-image: url("../images/background.svg");
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    height: 914px;
+    padding: 40px;
+    background-color: #f1f6fe;
+}
+
+.rightContainer .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.rightContainer .box img {
+    width: 100%;
+    height: 100%;
+}
+
+.rightContainer .roundedRect {
+    border-radius: 20px;
+}
+.menu {
+    display: none;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: hsl(23, 82%, 66%);
+
+    color: #fff;
+    transition: right 1s ease-in-out;
+    z-index: 999;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-top: 50px;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li:last-child {
+    margin-top: 371px;
+}
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #bed5fa;
+}
+
+.sidebar.show {
+    right: 0;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* responsive */
+@media all and (max-width: 1300px) {
+    .landingPage .leftContainer .wrapper header nav .nav-links {
+        width: 377px;
+    }
+    .landingPage .leftContainer .wrapper header nav .nav-links li {
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 1280px) {
+    .landingPage .leftContainer .wrapper header nav .logoContainer .logo {
+        width: 50px;
+    }
+    .landingPage .leftContainer .wrapper header nav .logoContainer span {
+        font-size: 18px;
+    }
+    .landingPage .leftContainer .wrapper header nav .nav-links {
+        width: 318px;
+    }
+    .landingPage .leftContainer .wrapper header nav .nav-links li {
+        font-size: 16px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .textContainer h1 {
+        font-size: 50px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .textContainer
+        .starBackground {
+        right: 33px;
+        top: 58px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .textContainer .Star {
+        top: 69px;
+        right: 44px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-info
+        h2 {
+        font-size: 32px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-info
+        p.student {
+        font-size: 16px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .primary-btn {
+        font-size: 20px;
+        width: 255px;
+        height: 72px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
+        font-size: 19px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .play_btn {
+        width: 55px;
+        height: 55px;
+    }
+    .bottom .stats .stat h2 {
+        font-size: 38px;
+    }
+    .bottom .stats .stat p {
+        font-size: 16px;
+    }
+    .landingPage .rightContainer {
+        padding: 30px;
+        height: 855px;
+        overflow: scroll;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .rightContainer .box {
+        width: 228px;
+    }
+}
+@media all and (max-width: 1080px) {
+    .landingPage .leftContainer .wrapper header nav .nav-links {
+        width: 265px;
+    }
+    .landingPage .leftContainer .wrapper header nav .nav-links li {
+        font-size: 14px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .textContainer h1 {
+        font-size: 46px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .textContainer
+        .starBackground {
+        right: 74px;
+        top: 49px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .textContainer .Star {
+        top: 60px;
+        right: 85px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text p.paragraph {
+        width: 490px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .primary-btn {
+        font-size: 18px;
+        width: 232px;
+        height: 62px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .play_btn {
+        width: 50px;
+        height: 50px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
+        font-size: 16px;
+    }
+    .bottom .stats .stat h2 {
+        font-size: 30px;
+    }
+    .landingPage .rightContainer {
+        height: 818px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-3 {
+        width: 70px;
+        height: 70px;
+        left: 73px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-2 {
+        width: 70px;
+        height: 70px;
+        left: 37px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-1 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-info
+        h2 {
+        font-size: 30px;
+    }
+}
+@media all and (max-width: 980px) {
+    .landingPage {
+        flex-direction: column;
+    }
+    .landingPage .leftContainer {
+        width: 100%;
+    }
+    .landingPage .leftContainer .wrapper header nav .logoContainer .logo {
+        width: 65px;
+    }
+    .landingPage .leftContainer .wrapper header nav .logoContainer span {
+        font-size: 24px;
+    }
+    .landingPage .leftContainer .wrapper header nav .nav-links {
+        width: 295px;
+    }
+    .landingPage .leftContainer .wrapper header nav .nav-links li {
+        font-size: 17px;
+    }
+    .landingPage .leftContainer .wrapper .hero {
+        width: 614px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .textContainer h1 {
+        font-size: 49px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .textContainer
+        .starBackground {
+        width: 58px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .textContainer .Star {
+        width: 38px;
+        top: 60px;
+        right: 85px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text p.paragraph {
+        width: 519px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-info
+        h2 {
+        font-size: 35px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-1 {
+        width: 75px;
+        height: 75px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-2 {
+        width: 75px;
+        height: 75px;
+        left: 40px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-3 {
+        width: 75px;
+        height: 75px;
+        left: 80px;
+    }
+    .landingPage .rightContainer {
+        height: 816px;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: row;
+        width: 100%;
+        overflow: auto;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons {
+        justify-content: center;
+    }
+}
+@media all and (max-width: 768px) {
+    .landingPage .leftContainer .wrapper .hero {
+        width: 577px;
+    }
+    .landingPage .leftContainer .wrapper header nav .logoContainer span {
+        font-size: 20px;
+    }
+    .landingPage .leftContainer .wrapper header nav .nav-links {
+        width: 254px;
+    }
+    .landingPage .leftContainer .wrapper header nav .nav-links li {
+        font-size: 14px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons {
+        width: 461px;
+        margin: 51px 0;
+    }
+}
+@media all and (max-width: 640px) {
+    .landingPage .leftContainer .wrapper .hero {
+        width: 522px;
+    }
+    .menu {
+        display: block;
+    }
+    .landingPage .leftContainer .wrapper header nav .nav-links {
+        display: none;
+    }
+    .landingPage .leftContainer .wrapper .hero {
+        width: 463px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .textContainer
+        .starBackground {
+        display: none;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .textContainer .Star {
+        display: none;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text p.paragraph {
+        margin-top: 22px;
+        width: 459px;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-info
+        h2 {
+        font-size: 32px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-info
+        p.student {
+        font-size: 13px;
+        width: 75px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .primary-btn {
+        font-size: 17px;
+        width: 214px;
+        height: 59px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .play_btn {
+        width: 48px;
+        height: 48px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
+        font-size: 15px;
+    }
+    .bottom .stats .stat h2 {
+        font-size: 24px;
+    }
+    .bottom .stats .stat p {
+        font-size: 15px;
+    }
+    .landingPage .rightContainer {
+        height: 286px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        flex-direction: row;
+        overflow-x: scroll;
+        padding: 17px;
+    }
+
+    .rightContainer .box {
+        width: 251px;
+    }
+}
+@media all and (max-width: 540px) {
+    .landingPage .leftContainer .wrapper header nav .logoContainer .logo {
+        width: 58px;
+    }
+    .landingPage .leftContainer .wrapper header nav .logoContainer span {
+        font-size: 18px;
+    }
+    .landingPage .leftContainer .wrapper .hero {
+        width: 386px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .textContainer h1 {
+        font-size: 44px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text p.paragraph {
+        width: 100%;
+        font-size: 13px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-info
+        h2 {
+        font-size: 26px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-info
+        p.student {
+        font-size: 12px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-1 {
+        width: 70px;
+        height: 70px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-2 {
+        width: 70px;
+        height: 70px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-3 {
+        width: 70px;
+        height: 70px;
+        left: 77px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .primary-btn {
+        font-size: 15px;
+        width: 178px;
+        height: 55px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons {
+        width: 346px;
+        justify-content: left;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .play_btn {
+        width: 44px;
+        height: 44px;
+    }
+
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
+        font-size: 14px;
+        right: 108px;
+        position: absolute;
+    }
+    .bottom .stats .stat h2 {
+        font-size: 18px;
+    }
+    .bottom .stats .stat p {
+        font-size: 14px;
+    }
+    .rightContainer .box {
+        width: 155px;
+    }
+    .landingPage .rightContainer {
+        height: 205px;
+    }
+}
+@media all and (max-width: 480px) {
+    .landingPage .leftContainer .wrapper {
+        width: 90%;
+    }
+    .landingPage .leftContainer .wrapper header nav .logoContainer span {
+        font-size: 16px;
+    }
+    .landingPage .leftContainer .wrapper header nav .logoContainer .logo {
+        width: 52px;
+    }
+    .landingPage .leftContainer .wrapper .hero {
+        width: 324px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .textContainer h1 {
+        font-size: 37px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text p.paragraph {
+        width: 100%;
+        font-size: 14px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons {
+        width: 317px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
+        font-size: 13px;
+        right: 36px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-info
+        h2 {
+        font-size: 24px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .primary-btn {
+        font-size: 14px;
+        width: 170px;
+        height: 52px;
+    }
+    .bottom .stats {
+        padding: 24px 11px;
+    }
+    .bottom .stats .stat h2 {
+        font-size: 16px;
+    }
+    .bottom .stats .stat p {
+        font-size: 12px;
+    }
+    .rightContainer .box {
+        width: 95px;
+    }
+    .landingPage .rightContainer {
+        height: 144px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .play_btn {
+        width: 40px;
+        height: 40px;
+    }
+}
+@media all and (max-width: 360px) {
+    .landingPage .leftContainer .wrapper .hero {
+        width: 290px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .textContainer h1 {
+        font-size: 33px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text p.paragraph {
+        font-size: 13px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-info
+        h2 {
+        font-size: 22px;
+    }
+
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-1 {
+        width: 60px;
+        height: 60px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-2 {
+        width: 60px;
+        height: 60px;
+        left: 31px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images
+        div.img-3 {
+        width: 60px;
+        height: 60px;
+        left: 61px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .infoContainer
+        .students-images {
+        width: 144px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons {
+        width: 286px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .primary-btn {
+        font-size: 13px;
+        width: 150px;
+        height: 46px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .play_btn {
+        width: 36px;
+        height: 36px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
+        font-size: 11px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .infoContainer {
+        width: 304px;
+    }
+}
+@media all and (max-width: 320px) {
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
+        right: 31px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .primary-btn {
+        font-size: 12px;
+        width: 141px;
+        height: 51px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
+        right: 40px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .infoContainer {
+        width: 286px;
+        margin: 22px 0;
+    }
+    .bottom .stats {
+        padding: 22px 5px;
+    }
+    .bottom .stats .stat {
+        padding-left: 10px;
+    }
+    .bottom .stats .stat h2 {
+        font-size: 14px;
+    }
+    .landingPage .rightContainer {
+        height: 100px;
+    }
+    .rightContainer .box {
+        width: 74px;
+    }
+}
