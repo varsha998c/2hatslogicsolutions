@@ -320,8 +320,20 @@ img {
     font-weight: 500;
     border: none;
 }
-
-.landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .play_btn {
+.landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 191px;
+}
+.landingPage
+    .leftContainer
+    .wrapper
+    .hero
+    .hero-text
+    .hero-buttons
+    .btn
+    .play_btn {
     width: 60px;
     height: 60px;
 }
@@ -454,7 +466,11 @@ img {
     .landingPage .leftContainer .wrapper header nav .nav-links li {
         font-size: 20px;
     }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .btn {
+        width: 188px;
+    }
 }
+
 @media all and (max-width: 1280px) {
     .landingPage .leftContainer .wrapper header nav .logoContainer .logo {
         width: 50px;
@@ -544,6 +560,9 @@ img {
     }
     .rightContainer .box {
         width: 228px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .btn {
+        width: 174px;
     }
 }
 @media all and (max-width: 1080px) {
@@ -648,6 +667,9 @@ img {
         .students-info
         h2 {
         font-size: 30px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .btn {
+        width: 159px;
     }
 }
 @media all and (max-width: 980px) {
@@ -859,6 +881,9 @@ img {
     .rightContainer .box {
         width: 251px;
     }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .btn {
+        width: 152px;
+    }
 }
 @media all and (max-width: 540px) {
     .landingPage .leftContainer .wrapper header nav .logoContainer .logo {
@@ -956,11 +981,11 @@ img {
         width: 44px;
         height: 44px;
     }
-
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .btn {
+        width: 149px;
+    }
     .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
         font-size: 14px;
-        right: 108px;
-        position: absolute;
     }
     .bottom .stats .stat h2 {
         font-size: 18px;
@@ -1000,7 +1025,6 @@ img {
     }
     .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
         font-size: 13px;
-        right: 36px;
     }
     .landingPage
         .leftContainer
@@ -1038,15 +1062,19 @@ img {
     .landingPage .rightContainer {
         height: 144px;
     }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .btn {
+        width: 126px;
+    }
     .landingPage
         .leftContainer
         .wrapper
         .hero
         .hero-text
         .hero-buttons
+        .btn
         .play_btn {
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
     }
 }
 @media all and (max-width: 360px) {
@@ -1134,9 +1162,13 @@ img {
         .hero
         .hero-text
         .hero-buttons
+        .btn
         .play_btn {
-        width: 36px;
-        height: 36px;
+        width: 42px;
+        height: 42px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .btn {
+        width: 113px;
     }
     .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons span {
         font-size: 11px;
@@ -1181,5 +1213,19 @@ img {
     }
     .rightContainer .box {
         width: 74px;
+    }
+    .landingPage .leftContainer .wrapper .hero .hero-text .hero-buttons .btn {
+        width: 109px;
+    }
+    .landingPage
+        .leftContainer
+        .wrapper
+        .hero
+        .hero-text
+        .hero-buttons
+        .btn
+        .play_btn {
+        width: 42px;
+        height: 42px;
     }
 }
